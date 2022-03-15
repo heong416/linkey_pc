@@ -1,0 +1,133 @@
+/*페이북*/
+@font-face {
+    font-family: 'paybooc';
+    font-style: normal;
+    font-weight: 100;
+    src: local('paybooc'),
+        url('paybooc OTF Light.otf') format('opentype'),
+        url('paybooc OTF Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'paybooc';
+    font-style: normal;
+    font-weight: 300;
+    src: local('paybooc'),
+        url('paybooc OTF Medium.otf') format('opentype'),
+        url('paybooc OTF Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'paybooc';
+    font-style: normal;
+    font-weight: 500;
+    src: local('paybooc'),
+        url('paybooc OTF Bold.otf') format('opentype'),
+        url('paybooc OTF Bold.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'paybooc';
+    font-style: normal;
+    font-weight: 500;
+    src: local('paybooc'),
+        url('paybooc OTF ExtraBold.otf') format('opentype'),
+        url('paybooc OTF ExtraBold.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+/*노토산스*/
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Notosans'),
+        url('NotoSansKR-Thin.otf') format('opentype'),
+        url('NotoSansKR-Thin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Notosans'),
+        url('NotoSansKR-Light.otf') format('opentype'),
+        url('NotoSansKR-Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Notosans'),
+        url('NotoSansKR-Regular.otf') format('opentype'),
+        url('NotoSansKR-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Notosans'),
+        url('NotoSansKR-Medium.otf') format('opentype'),
+        url('NotoSansKR-Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Notosans'),
+        url('NotoSansKR-Bold.otf') format('opentype'),
+        url('NotoSansKR-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Notosans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Notosans'),
+        url('NotoSansKR-Black.otf') format('opentype'),
+        url('NotoSansKR-Black.eot') format('embedded-opentype');
+}
+
+
+/*노토산스 세리프*/
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 300;
+    src: local('NotoSerif'),
+        url('NotoSerifCJKkr-Regular.otf') format('opentype'),
+        url('NotoSerifCJKkr-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSerif'),
+        url('NotoSerifCJKkr-Black.otf') format('opentype'),
+        url('NotoSerifCJKkr-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
