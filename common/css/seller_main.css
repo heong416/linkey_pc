@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+
+
+/*햄버거 메뉴 */
+.scroll{
+    height: 1vh;
+    overflow: hidden;
+    }
+#wrap{position: relative;}
+
+
+
+/*메인슬라이더*/
+
+.mainSlider{
+    position: relative;
+    width: 100%;
+    height: 1150px;
+    background: url(../images/seller/mainImg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.sliderTXt{
+    position: absolute;
+    bottom: 230px;
+    left: 225px;
+}
+.sliderTXt p{
+    line-height: 100px;
+    font-size: 60px;
+    font-weight: 200;
+}
+.sliderTxt h2{
+    font-size: 200px;
+    letter-spacing: 45px;
+    font-weight: 900;
+}
+.sliderTxt span{font-weight: 500;}
+
+
+
+/*메인컨텐츠01*/
+
+.mainCon01{
+    position: relative;
+    padding-top: 550px;
+    height: 600px;
+}
+.con01Bar{}
+
+.con01TxtBox{
+    position: absolute;
+    top: 520px;
+    left: 670px;
+}
+.con01TxtImg{}
+.con01TxtImg img{
+    padding: 25px 0;
+    display: block;
+}
+
+.con01SubTxt{padding-top: 40px;}
+.con01SubTxt p{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 58px;
+}
+.con01SubTxt p span{font-weight: 700;}
+
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{
+    padding-top: 450px;
+    text-align: center;
+}
+.mainCon02 h2{
+    font-size: 100px;
+    font-weight: 900;
+}
+.mainCon02>p{
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.con02Box{
+    font-family: 'paybooc';
+    color: #7A7A7A;
+    padding-top: 170px;
+    text-align: center;
+}
+.con02Box img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.con02Box h4{
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.con02Box p{
+    line-height: 30px;
+    font-weight: 300;
+}
+.con02Box01, .con02Box02, .con02Box03{
+    width: 340px;
+    height: 340px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px #ededed;
+    display: inline-block;
+    margin: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 40px;
+}
+
+
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{
+    margin-top: 450px;
+    padding: 260px 0;
+    background: #DFEDF5;
+}
+.mainCon03 h2{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+    font-weight: 900;
+}
+.con03Wrap{text-align: center;}
+.con03Img{vertical-align: middle;}
+.con03Txt{
+    margin-left: 100px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.con03Txt h3{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 70px;
+    padding-bottom: 24px;
+}
+.con03Txt span{
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    display: block;
+}
+.con03Txt p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+
+
+/*메인컨텐츠04*/
+
+.mainCon04{
+    position: relative;
+    padding-top: 300px;
+}
+.mainCon04 h2{
+    font-size: 55px;
+    text-align: center;
+}
+.mainCon04 h2 span{
+    display: block;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.con04Top{padding-top: 100px;}
+.con04Top>img{}
+.con04TxtList{
+    position: absolute;
+    top: 680px;
+    right: 0;
+    font-family: 'paybooc';
+}
+.con04TxtList li{padding: 45px 0;}
+.con04TxtList li img{
+    vertical-align: middle;
+}
+.con04TxtList li p{
+    margin-left: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.con04TxtList li span{
+    display: block;
+    font-weight: 700;
+}
+
+.con04Bottom{
+    margin-top: 100px;
+    height: 1100px;
+    position: relative;
+}
+.con04Bottom img{
+    position: absolute;
+}
+.aroow{
+    top: 400px;
+    left: 50%;
+    margin-left: -310px;
+}
+.adBall{
+    top: 535px;
+    left: 50%;
+    margin-left: -190px;
+}
+.linkeyBall{
+    top: 180px;
+    left: 50%;
+    margin-left: -100px;
+}
+.sellerBall{
+    bottom: 30px;
+    left: 100px;
+}
+.customerBall{
+    bottom: 30px;
+    right: 100px;
+}
+.mainCon04 h6{
+    padding-top: 80px;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'paybooc';
+    color: #757575;
+}
+
+
+
+
+
+/*메인컨텐츠05*/
+
+.mainCon05{
+    padding-top: 450px;
+    position: relative;
+}
+
+.con05Bar{
+    margin-right: 600px;
+    text-align: center;
+}
+.con05Bar h2{
+    font-size: 75px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+
+.con05Bar>p{
+    padding: 60px 0;
+    font-size: 22px;
+}
+
+.moreBtn{
+    width: 450px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: background 0.8s;
+}
+.moreBtn a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    display: inline-block;
+    transition: color 0.8s;
+}
+
+
+/*호버효과*/
+.moreBtn:hover {background: #333;}
+.moreBtn:hover a{color: #fff;}
+
+.con05List{
+    position: absolute;
+    top: 700px;
+    right: 180px;
+    font-weight: 300;
+}
+.con05List{}
+.con05List h3{
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 60px;
+    padding-bottom: 30px;
+}
+.con05List h3 span{
+    display: block;
+    font-weight: 700;
+}
+.con05List h4{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.con05List01 h4{padding-top: 20px;}
+.con05List p{
+    font-size: 22px;
+    line-height: 34px;
+}
+.con05List img{padding-bottom: 120px;}
+.con05List01, .con05List02, .con05List03{margin-left: 130px;}
+
+
+
+
+/*앱 다운로드*/
+
+.appDownload{
+    padding: 450px 0;
+    text-align: center;
+}
+.appDownload h2{
+    padding-bottom: 40px;
+    font-size: 100px;
+    font-weight: 900;
+}
+.appDownload p{
+    font-family: 'paybooc';
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.downWrap{padding-top: 140px;}
+
+.storeDown{
+    vertical-align: middle;
+    padding: 0 120px;
+    display: inline-block;
+}
+.storeDown p{
+    padding-bottom: 28px;
+    font-size: 20px;
+}
+.appStore{
+    padding-top: 46px;
+}
+.appDownloadBar{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.qrDown{
+    vertical-align: middle;
+    padding: 0 120px;
+    display: inline-block;
+}
+.qrDown p{
+    padding-bottom: 28px;
+    font-size: 20px;
+}
+
+git 
+
+
+
+
+
+
+

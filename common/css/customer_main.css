@@ -1,0 +1,452 @@
+@charset "utf-8";
+
+
+.mainCon03 p.bold{
+    font-weight: 900;
+    font-size: 65px;
+}
+#container{}
+
+
+
+/*메인슬라이드*/
+
+.mainSlider{
+    height: 1080px;
+    background: url(../images/customer/mainImg.png) no-repeat center center;
+    background-size: cover;
+}
+.sliderTxt{
+    text-align: center;
+    padding-top: 590px;
+}
+
+
+
+/*메인컨텐츠01*/
+
+.mainCon01{
+    padding-top: 330px;
+    text-align: center;
+}
+.mainCon01 p{
+    font-size: 60px;
+    line-height: 95px;
+    font-weight: 200;
+}
+.mainCon01 p span{
+    font-weight: 900;
+}
+.mainCon01 h4{
+    font-size: 24px;
+    font-weight: 30px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+.con01Img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{
+    text-align: center;
+}
+.mainCon02>h2{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 120px;
+}
+
+.leftBox{
+    font-family: 'paybooc';
+    float: left;
+    width: 50%;
+    background: #F7F3F0;
+}
+.leftBoxTxt{}
+.leftBoxTxt h2, .rightBoxTxt h2{
+    padding-top: 120px;
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+.mainCon02 p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 200;
+}
+.mainCon02 img{
+    padding-top: 70px;
+}
+.rightBox{
+    font-family: 'paybooc';
+    float: left;
+    width: 50%;
+    background: #404447;
+}
+.rightBoxTxt{
+    color: #f3f3f3;
+}
+.rightBoxTxt h2{}
+.rightBoxTxt p{}
+.rightBoxImg{}
+.rightImg01{}
+.rightImg02{}
+
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{
+    position: relative;
+    height: 5100px;
+}
+.mainCon03 h2{
+    font-size: 80px;
+    padding-top: 500px;
+    padding-bottom: 240px;
+    font-weight: 900;
+}
+
+.con03Txt{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 450;
+    font-weight: 100;
+}
+.con03Txt p{ 
+    font-size: 55px;
+    line-height: 100px;
+}
+.con03Txt h4{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con03Img{
+    position: absolute;
+    right: -150px;
+    text-align: center;
+}
+.con03Img p{
+    font-size: 20px;
+    padding-top: 250px;
+    padding-bottom: 30px;
+}
+
+.con03Txt01{}
+.con03Txt02{}
+.con03Txt03{}
+.con03Txt04{}
+
+.con03Img01{}
+.con03Img01 p{}
+.con03Img01 img{}
+
+.con03Img02{}
+.con03Img02 p{}
+.con03Img02 img{}
+
+.con03Img03{}
+.con03Img03 p{}
+.con03Img03 img{}
+
+.con03Ball{
+}
+.ball01{
+    z-index: -99999;
+    position: absolute;
+    top: 800;
+    left: -90px;
+}
+.ball02{
+    z-index: -99999;
+    position: absolute;
+    top: 2490px;
+    right: -510;
+}
+.ball03{
+    z-index: -99999;
+    position: absolute;
+    top: 3500px;
+    right: -200px;
+}
+.ball04{
+    z-index: -99999;
+    position: absolute;
+    bottom: 30px;
+    left: -97px
+}
+
+
+
+
+/*메인컨텐츠04*/
+
+
+.mainCon04{
+    position: relative;
+    text-align: center;
+    padding-top: 1130px;
+}
+.mainCon04 h2{
+    padding-bottom: 230px;
+    padding-top: 30px;
+    font-size: 90px;
+    font-weight: 900;
+}
+.mainCon04>h3{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.mainCon04>h3 span{
+    font-weight: 300;
+}
+.mainCon04 p{
+    font-size: 26px;
+    line-height: 50px;
+}
+.quotes{}
+
+.con04Box{
+    padding-top: 120px;
+}
+.con04BoxIphone{}
+.con04BoxImg{
+    z-index: -99999;
+    position: absolute;
+    right: 0;
+}
+
+.con04Bottom{}
+.con04Bottom h3{
+    font-size: 36px;
+}
+.con04Bottom img{
+    padding: 70px 0;
+}
+.con04BottomImg{}
+
+
+
+
+
+/*메인컨텐츠05*/
+
+.mainCon05{
+    text-align: center;
+}
+.mainCon05 h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+.mainCon05>p{
+    padding-top: 25px;
+    font-size: 30px;
+}
+.con05IphoneList{
+    display: inline-block;
+    padding-top: 100px;
+}
+.con05IphoneList li{
+    float: left;
+}
+.con05IphoneList li img{}
+.con05IphoneList li p{
+    font-family: 'paybooc';
+    font-size: 18px;
+    line-height: 30px;
+}
+.con05IphoneList li p span{
+    display: block;
+}
+
+.con05Img01{}
+.con05Img02{}
+.con05Img03{}
+
+
+
+/*메인컨텐츠06*/
+
+.mainCon06{
+    padding-top: 500px;
+    text-align: center;
+    font-size: 24px;
+}
+.con06Txt{}
+.con06Txt h2{
+    font-size: 60px;
+    padding-bottom: 60px;
+    font-weight: 900;
+}
+.con06Txt p{}
+.con06Txt span{
+    display: block;
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.con06Top{
+    height: 1700px;
+    position: relative;
+    padding-top: 150px;
+}
+.storeImg{}
+
+.con06TopWrap{
+    position: absolute;
+    top: 860px;
+    right: 50%;
+    margin-right: -120px;
+}
+.basket{}
+.basket img{}
+.basket p{
+    font-family: 'paybooc';
+    padding-top: 30px;
+    font-size: 28px;
+    line-height: 48px;
+}
+.basket p span{
+    display: block;
+    font-weight: 900;
+}
+
+.con06Bar{
+    padding: 70px 0;
+}
+
+.craditCard{}
+.craditCard img{}
+.craditCard p{
+    font-family: 'paybooc';
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.con06Bottom{
+    position: relative;
+}
+
+.con06IphoneList{
+    padding-top: 230px;
+}
+.con06IphoneList li{
+    padding: 0 30px;
+    display: inline-block;
+}
+.con06IphoneList li img{}
+
+.con06Iphone03{
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    margin-right: -250px;
+}
+
+
+
+/*메인컨텐츠07*/
+
+.mainCon07{
+    position: relative;
+    height: auto;
+    padding-top: 600px;
+    text-align: center;
+}
+.mainCon07 h2{
+    font-size: 60px;
+    padding-bottom: 150px;
+    font-weight: 900;
+}
+
+.con07Slide{
+    font-family: 'paybooc';
+    color: #666;
+}
+.con07Slide{}
+.con07Slide img{}
+.con07Slide h4{
+    padding-top: 60px;
+    font-size: 50px;
+}
+.con07Slide p{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.slide01, .slide02, .slide03{position: relative;}
+.gif01, .gif02, .gif03{
+    z-index: -99999;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -222px;
+}
+.gif01 img, .gif02 img, .gif03 img{width: 59%;}
+
+
+
+/*앱 다운로드*/
+.appDownload{
+    padding: 450px 0;
+    text-align: center;
+}
+.appDownload h2{
+    padding-bottom: 40px;
+    font-size: 100px;
+    font-weight: 900;
+}
+.appDownload p{
+    font-family: 'paybooc';
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.downWrap{
+    padding-top: 140px;
+}
+
+.storeDown{
+    vertical-align: middle;
+    padding: 0 120px;
+    display: inline-block;
+}
+.storeDown img{
+}
+.storeDown p{
+    padding-bottom: 28px;
+    font-size: 20px;
+}
+.googleStore{}
+.googleStore a{}
+.googleStore img{}
+.appStore{
+    padding-top: 46px;
+}
+.appStore a{}
+.appStore img{}
+
+.appDownloadBar{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.qrDown{
+    vertical-align: middle;
+    padding: 0 120px;
+    display: inline-block;
+}
+.qrDown p{
+    padding-bottom: 28px;
+    font-size: 20px;
+}
+.qrDown img{}
+

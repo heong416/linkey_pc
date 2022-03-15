@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+
+
+/*섹션01*/
+
+.sec01{
+    text-align: center;
+    padding-top: 80px;
+}
+.sec01 h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.sec01>p{
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+
+.sec01Btn p{margin-top: 6px;}
+
+.sellingBtn, .serviceBtn, .deliveryBtn{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: solid 1px #333;
+    background: #fff;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.btnBg{
+    background: #fff;
+    border: solid 1px #FC7233;
+}
+.a{color: #FC7233}
+.black{color: #333;}
+
+
+
+
+
+/*섹션02*/
+
+.sec02{
+    position: relative;
+    padding-top: 40px;
+}
+.sec02Menu{
+    position: absolute;
+    right: 50%;
+    margin-right: -315px;
+}
+.sec02::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: #cfcfcf;
+    margin-top: 40px;
+}
+
+.sellingMenuList{display: none;}
+.serviceMenuList{display: none;}
+
+.deliveryMenuList {display: none;}
+
+.activeSubMenuList{display: block}
+
+.sellingMenuList>li, .serviceMenuList>li, .deliveryMenuList>li{float: left;}
+.sellingMenuList>li>a, .serviceMenuList>li>a, .deliveryMenuList>li>a{
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lnb{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    z-index: 9999999999;
+}
+.lnb li{
+    padding: 0 30px;
+    float: left;
+    text-align: center;
+}
+
+.lnb{display: none;}
+.lnbActive{
+    display: flex;
+    justify-content: center
+}
+
+
+
+
+
+/*섹션03*/
+
+.sec03{padding-top: 160px;}
+
+
+/*--------------공통--------------*/
+
+    .slideList{position: relative;}
+    .slideList>img{
+        width: 394px;
+        margin-left: 100px;
+}
+    .slideList h2{
+        font-size: 36px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    .slideList p{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .sec03SlideTxt{
+        position: absolute;
+        top: 100px;
+        left: 600px;
+    }
+    .sec03SlideTxt h4{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+/*--------------공통--------------*/
+
+
+
+.slideListTxt01 h2 span{display: block;}
+.lastP{
+    padding-top: 30px;
+    font-weight: 900;
+}
+
+    
+.sellingList11 img{
+    margin-left: 100px;
+    width: 400px;
+}
+
+.pencilIcon, .plusBtn{width: 50px;}
+.pencilIcon02{width: 30px;}
+
+
+.sellingList13 h2, .serviceList14 h2, .deliveryList13 h2{padding-bottom: 10px;}
+.sellingList13 h4, .serviceList14 h4, .deliveryList13 h4{
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.sellingSlide70Img, .deliveryImgList{
+    position: absolute;
+    top: 410;
+    left: 600px;
+}
+.sellingSlide70Img img, .deliveryImgList img{
+    top: 400px;
+    padding: 20px 0;
+}
+.editIcon{padding-bottom: 42px}
+.editIcon span{
+    font-size: 20px;
+    display: block;
+}
+.editIconImg{padding-bottom: 48px;}
+
+.sellingSlide70List, .deliveryIconList{
+    position: absolute;
+    top: 397px;
+    left: 750px;
+}
+.sellingSlide70List p, .deliveryIconList p{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

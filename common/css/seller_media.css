@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+/*웹뷰 안보임 처리*/
+.panel, .mGnb, .mMainCon01, .mCon02, .mCon03, .mCon04, .mCon05, .guidBtn{
+    display: none;
+}
+
+
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    
+    
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    
+    /*안보임 처리*/
+    .gnb, .fSns, .util, .con01Bar, .mainCon01, .con03Txt, .mainCon04, .mainCon05, .appDownloadBar, .linkey{display: none;}
+    
+    
+    /*보임 처리*/
+    
+    #header{
+        background: #fff;
+        width: 100%;
+        z-index: 999;
+    }
+    #header h1{margin-right: 0;}
+    #header h1 img{width: 100px;}
+    #wrap{position: relative;}
+    
+    .panel{
+        position: absolute;
+        top: 27px;
+        right: 25px;
+        display: block;
+    }
+    
+    
+    .mGnb{
+        text-align: center;
+        display: block;
+        z-index: 100000;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        border: 0;
+        left: 0;
+        background: #373737;
+        transform: translateX(100%);
+        transition: transform 0.3s;
+    }
+    .mGnb h1{
+        margin-right: 0;
+        margin-top: 29px;
+    }
+    .mGnb h1 img{width: 100px;}
+    .mGnbActive {transform: translateX(0%)}
+    .mGnbWrap{
+        text-align: center;
+        padding-top: 140px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .mGnbWrap li{padding-bottom: 25px;}
+    .mGnbWrap li a{color: #f3f3f3;}
+    .closeIcon{
+        position: absolute;
+        top: 27px;
+        right: 25px;
+        display: block;
+    }
+    .closeIcon img{width: 30px;}
+    .mSns{
+        margin-top: 100px;
+        display: block;
+    }
+    .mSnsList{
+        text-align: center;
+        width: 100%;
+    }
+    .mSnsList li{
+        padding: 0 15px;
+        display: inline-block;
+    }
+    .mSnsList li img{padding-top: 30px;}
+    
+    .mSns::before{
+        content: "";
+        display: block;
+        width: 80%;
+        height: 1px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    .homeList{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        margin-left: -100px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .homeList li{display: inline-block;}
+    .homeList li::after{
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 11px;
+        background: #A9A9A9;
+        margin: 0 10px;
+    }
+    .homeList li:last-child::after{display: none;}
+    .homeList li a{color: #A9A9A9;}
+    
+    
+    
+    
+    /*메인슬라이드*/
+    .mainSlider{
+        padding: 45% 0;
+        margin:0;
+        height:auto;
+        background:url(../images/seller/mMainImg.png) center center;
+        background-size: cover;
+    }
+    .sliderTXt{
+        position: absolute;
+        top: 81%;
+        left: 8%;
+    }
+    .sliderTXt p{
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .sliderTxt h2{
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+    
+    .sliderTxt h2::after{
+        content: "";
+        display: block;
+        width: 6px;
+        height: 150px;
+        background: #333;
+        margin-left: 3%;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    /*컨텐츠01*/
+    .mMainCon01{
+        padding-top: 330px;
+        display: block;
+    }
+    .mMainCon01 img{
+        margin-left: 8%;
+        padding-bottom: 8%;
+        width: 80%;
+    }
+    .mMainCon01 p{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        margin-left: 8%;
+    }
+    .mMainCon01 p span{font-weight: 700;}
+    
+    
+    
+    /*컨텐츠02*/
+    .mainCon02{padding-top: 30%;}
+    .mainCon02 h2{font-size: 36px;}
+    .mainCon02>p{
+        padding-top: 5%;
+        font-size: 18px;
+    }
+    
+    .con02Box{padding-top: 15%}
+    .con02Box img{width: 60px;}
+    .con02Box h4{
+        font-weight: 300;
+        padding: 25px 0;
+    }
+    .con02Box p{display: none;}
+    .con02Box01, .con02Box02, .con02Box03{
+        width: 250px;
+        height: 250px;
+        box-sizing: border-box;
+        margin: 25px 0;
+    }
+    
+    .mCon02{display: block;}
+    .mCon02>img{
+        padding: 15% 0;
+        width: 30%;
+    }
+    
+    .mCon02Txt{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+    .mCon02Txt p{}
+    .mCon02Txt p span{font-weight: 700;}
+    
+
+    
+    
+    /*메인컨텐츠03*/
+    .mCon03{display: block;}
+    .mainCon03{
+        margin-top: 30%;
+        padding: 25% 0;
+        background: #DFEDF5;
+    }
+    .mainCon03 h2{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 15%;
+        font-weight: 900;
+    }
+    .con03Wrap{text-align: center;}
+    .con03Img{width: 60%;}
+    .mCon03{position: relative;}
+    .mCon03Txt{display: block;}
+    .mCon03Txt h3{
+        padding-top: 15%;
+        padding-bottom: 5%;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    .mCon03Txt h3 span{
+        display: block;
+        font-weight: 700;
+    }
+    .mCon03Txt p{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mCon03Txt h5{
+        padding-top: 2%;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .mCon03Bar{position: absolute;}
+    
+    
+    /*컨텐츠04*/
+    .mCon04{
+        padding-top: 25%;
+        text-align: center;
+        display: block;
+    }
+    .mCon04 h2{
+        font-size: 22px; 
+        line-height: 40px;
+    }
+    .mCon04 h2 span{
+        display: block;
+        font-weight: 300;
+    }
+    .mCon04Top img{width: 100%;}
+    .mCon04Top p{font-weight: 300;}
+    .mCon04Top p span{font-weight: 700;}
+    .mCon04Bottom{padding: 10% 0;}
+    .mCon04Bottom img{width: 80%;}
+    
+    
+    
+    
+    /*컨텐츠05*/
+    .mCon05{
+        text-align: center;
+        height: 830px;
+        position: relative;
+        padding-top: 25%;
+        display: block;
+    }
+    
+    .mCon05Iphone01, .mCon05Iphone02, .mCon05Iphone03{
+        padding-top: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .mCon05List01 h2, .mCon05List02 h2, .mCon05List03 h2{padding-bottom: 20px;}
+    .mCon05List01>p, .mCon05List02>p, .mCon05List03>p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .mCon05List01, .mCon05List02, .mCon05List03{position: relative;}
+    .mCon05Bg01, .mCon05Bg02, .mCon05Bg03{
+        position: absolute;
+        width: 95%;
+        z-index: -9999;
+        top: 100px;
+        left: 50%;
+        margin-left: -48%;
+    }
+    .mCon05List01 p span, .mCon05List02 p span, .mCon05List03 p span{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .mCon05ListTxt01 p, .mCon05ListTxt02 p, .mCon05ListTxt03 p{
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .mCon05List h3{font-size: 20px;}
+    
+    .mCon05List03 h2{font-weight: 300;}
+    .mCon05List03 h2 span{
+        font-weight: 700;
+        display: block;
+    }
+
+    
+    
+    /*앱이용가이드 버튼*/
+    .guidBtn{
+        display: block;
+        padding-top: 35%;
+        padding-bottom: 20%;
+        text-align: center;
+    }
+    .guidBtn p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 300;
+        padding-bottom: 5%;
+    }
+    .guidBtn p span{display: block;}
+    .guidBtn .moreBtn{width: 300px;}
+    .guidBtn .moreBtn a{
+        font-family: 'paybooc';
+        font-size: 14px;
+    }
+    
+    
+    
+    /*앱 다운로드*/
+    .appDownload{
+        text-align: center;
+        padding-top: 25%;
+        padding-bottom: 25%;
+        background: #CBE0FF;
+    }
+    .appDownload h2{
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    .appDownload p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .downWrap{padding-top: 0;}
+    .storeDown{
+        display: block;
+        padding: 0;
+    }
+    .storeDown p{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .appStore{padding-top: 5%;}
+    .qrDown{
+        display: block;
+        padding: 0;
+    }
+    .qrDown p{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*푸터*/
+    
+   #footer{
+        font-size: 12px;
+        padding: 10% 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .fWrap{}
+    #footer h3{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+    #footer h3 img{
+        width: 75px;
+        display: inline-block;
+    }
+    .fTxt span{display: block;}
+    .copy{padding-top: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*웹뷰 안보임 처리*/
+.mBtn, .mMainTxt, .fSns, .mBottomTxt, .mCon01Img, .mMainTxt, .mBTxt{display: none;}
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    
+    /*안보임 처리*/
+    .btn, .linkey, .txt, .bottomTxt, .mainTxt, .con01Img, .bTxt{display: none;}
+
+    /*보임 처리*/
+    .con01{
+        width: 100%;
+        padding-top: 30%;
+        padding-bottom: 15%;
+        position: relative;
+    }
+    .mainTxt p{
+        padding-top: 5%;
+        padding-bottom: 20%;
+        font-weight: 200;
+        text-align: center;
+        display: block;
+    }
+    .mainTxt p span{font-weight: 700;}
+    .mMainTxt{
+        text-align: center;
+        display: block;
+    }
+    .mMainTxt h2{
+        font-size: 50px;
+        letter-spacing: 10px;
+        margin-left: 0;
+        font-weight: 900;
+        font-family: 'notoSerif';
+    }
+    .mMainTxt p{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .mBtn{
+        display: block;
+        text-align: center;
+    }
+    .mBtnWrap{display: inline-block;}
+    .mBtn p{
+        padding-top: 30px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    .mBtn img{width: 100%;}
+    
+    .seller{
+        padding: 50px 0;
+        margin-left: 7%;
+        width: calc(50% - 7%);
+    }
+    .customer{
+        padding: 50px 0;
+        margin-right: 7%;
+        width: calc(50% - 7%);
+    }
+    .mBTxt{
+        display: block;
+        font-family: 'notoSerif';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #5B5B5B;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .mBTxt p span{font-weight: 900;}
+    
+    
+   
+    /*푸터*/
+    #footer{
+        font-size: 12px;
+        padding: 6% 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .fWrap{}
+    #footer h3{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+    #footer h3 img{
+        width: 75px;
+        display: inline-block;
+    }
+    .fTxt{}
+    .fTxt p{}
+    .fTxt span{display: block;}
+    .copy{padding-top: 10px;}
+    
+    
+    

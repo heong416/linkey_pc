@@ -1,0 +1,549 @@
+@charset "utf-8";
+
+/*웹뷰 안보임 처리*/
+.panel, .mMainCon02, .mMainCon03, .mCon04Box, .mCon04Bottom, .mMainCon05, .mMainCon06, .mGnb, .mCon01Img{
+    display: none;
+}
+
+
+
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){ 
+    
+    
+    /*리셋*/
+    
+    body{min-width:auto;}
+    .inner{width:auto;}
+    .mbold{
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    
+    /*안보임 처리*/
+    
+    .util, .mainCon02, .mainCon03, .con04Box, .con04BottomImg, .mainCon05, .mainCon06, .appDownloadBar, .linkey, .fSns, .con01Img{
+        display: none;
+    }
+    
+    
+    
+    /*보임 처리*/
+    
+    #wrap{position: relative;}
+    #header{
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+    }
+
+    
+    #header h1{margin-right: 0;}
+    #header h1 img{width: 100px;}
+    .mLogo{margin-left: 30px;}
+    .mLogo img{width: 100px;}
+    
+    .panel{
+        position: absolute;
+        top: 27px;
+        right: 25px;
+        display: block;
+    }
+    .scroll{
+        height: 1vh;
+        overflow: hidden;
+    }
+    
+    .mGnb{
+        text-align: center;
+        display: block;
+        z-index: 100000;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        border: 0;
+        left: 0;
+        background: #373737;
+        transform: translateX(100%);
+        transition: transform 0.3s;
+    }
+    .mGnb h1{
+        margin-right: 0; 
+        margin-top: 29px;
+    }
+    .mGnb h1 img{width: 100px;}
+    .mGnbActive {transform: translateX(0%)}
+    .mGnbWrap{
+        text-align: center;
+        padding-top: 140px;
+        font-size: 22px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .mGnbWrap li{padding-bottom: 20px;}
+    .mGnbWrap li a{color: #f3f3f3;}
+    .closeIcon{
+        position: absolute;
+        top: 27px;
+        right: 25px;
+        display: block;
+    }
+    .closeIcon img{width: 28px;}
+    
+    .mSns{
+        margin-top: 100px;
+        display: block;
+    }
+    .mSnsList{
+        text-align: center;
+        width: 100%;
+    }
+    .mSnsList li{
+        padding: 0 15px;
+        display: inline-block;
+    }
+    .mSnsList li img{
+        padding-top: 30px;
+    }
+    
+    .mSns::before{
+        content: "";
+        display: block;
+        width: 80%;
+        height: 1px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    
+    .homeList{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        margin-left: -100px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .homeList li{display: inline-block;}
+    .homeList li::after{
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 11px;
+        background: #A9A9A9;
+        margin: 0 10px;
+    }
+    .homeList li:last-child::after{display: none;}
+    .homeList li a{color: #A9A9A9;}
+    
+    
+    
+    
+    /*메인슬라이더*/
+    .mainSlider{
+        height: auto;
+        background-size: contain;
+    }
+    
+    .sliderTxt{
+        padding-top: 0;
+        padding: 25% 0;
+    }
+    .sliderTxt img{
+        margin-top: 25px;
+        width: 80%;
+    }
+    
+    
+    
+    /*컨텐츠01*/
+    .mainCon01{
+        padding-top: 25%;
+    }
+    .mainCon01 p{
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .mainCon01 h4{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .mainCon01 h4 span{
+        display: block;
+    }
+    
+    .mCon01Img{
+        display: inline-block;
+        padding-top: 15%;
+        padding-bottom: 25%;
+        width: 90%;
+    }
+    
+    
+    /*컨텐츠02*/
+    .mMainCon02{
+        text-align: center;
+        display: block;
+        background: #F7F3F0;
+    }
+    .mMainCon02>h2{
+        padding-bottom: 30px;
+    }
+    
+    .searchList{font-family: 'paybooc';}
+    .searchList h2{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    .searchList p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .searchList img{
+        width: 75%;
+        padding-top: 5%;
+    }
+    .searchList li{
+        padding: 0;
+    }
+    
+    .searchList01{
+        background: #F7F3F0;
+    }
+    .searchList02{
+        background: #F7F3F0;
+    }
+    .searchList03{
+        color: #333;
+        background: #B9A79A;
+    }
+    .searchList04{
+        color: #333;
+        background: #B9A79A;
+    }
+    
+    
+    
+    /*컨텐츠03*/
+    .mMainCon03{
+        padding-top: 20%;
+        text-align: center;
+        display: block;
+        background: #f9f9f9;
+    }
+    .mCon03Txt{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 79px;
+        background: #f9f9f9;
+        padding-bottom: 20px;
+        z-index: 999;
+        font-family: 'paybooc';
+    }
+    .mCon03Txt p{display: inline-block}
+    .mCon03Txt h2{
+        padding: 30px 0;
+    }
+    .mCon03Txt>span{}
+    .mCon03Txt h4{
+        padding-top: 5%;
+    }
+    .mCon03Txt h4 span{
+        display: block;
+    }
+    
+    .mCon03Img{
+        padding-top: 5%;
+    }
+    .mCon03Img p{
+        font-family: 'paybooc';
+        font-size: 26px;
+        font-weight: 900;
+        padding-top: 10%;
+        padding-bottom: 4%;
+        color: #666;
+    }
+    .mCon03Img img{
+        width: 80%;
+        padding-bottom: 15%;
+    }
+    
+    .mCon03Img01{}
+    .mCon03Img02{}
+    .mCon03Img03{}
+    
+    
+    
+    /*컨텐츠04*/
+    .mainCon04{
+        padding-top: 20%;
+    }
+    
+    .mainCon04 h2{
+        font-size: 30px;
+    }
+    
+    .quotes{
+        width: 100px;
+    }
+    .mainCon04 h2{
+        padding-bottom: 8%;
+    }
+    .mainCon04>h3{
+        font-size: 20px;
+    }
+    .mainCon04 p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mainCon04 p span{display: block;}
+    .mCon04Box{
+        display: block;
+        margin-top: 10%;
+        padding-top: 0;
+        background: #FFD480;
+    }
+    .mCon04BoxIphone{
+        padding-top: 5%;
+        width: 90%;
+    }
+    .mCon04BoxImg{
+        display: block;
+    }
+    
+    .con04Bottom{
+        padding-top: 10%;
+    }
+    .con04Bottom h3{
+        padding: 8% 0;
+        font-size: 26px;
+    }
+    .con04Bottom h3 span{
+        display: block;
+    }
+    .mCon04Bottom{
+        display: block;
+        position: relative;
+        padding-bottom: 300px;
+    }
+    .mCon04Bottom img{}
+    .point01{
+        width: 230px;
+    }
+    .point02{
+        position: absolute;
+        width: 350px;
+        top: 230px;
+        left: 50%;
+        margin-left: -175px;
+    }
+    
+    
+    
+    
+    
+    /*컨텐츠05*/
+    .mMainCon05{
+        padding-top: 40%;
+        text-align: center;
+        display: block;
+    }
+    .mCon05Bar{
+        display: block;
+    }
+    .mMainCon05 h2{
+        font-size: 22px;
+        padding-bottom: 4%;
+    }
+    .mMainCon05>p{
+        padding-bottom: 20px;
+    }
+    .mCon05IphoneList{}
+    .mCon05IphoneList img{}
+    .mCon05IphoneList p{
+        font-family: 'paybooc';
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 13%;
+    }
+    .mCon05IphoneList span{display: block;
+    }
+    
+    
+    .mCon05IphoneList li img{width: 90%;}
+    
+    
+    
+    /*컨텐츠06*/
+    .mMainCon06{
+        display: block;
+        text-align: center;
+    }
+    
+    .mCon06Txt{}
+    .mCon06Txt h2{
+        padding-top: 30%;
+    }
+    .mCon06Txt h2 span{
+        padding-top: 3%;
+        padding-bottom: 8%;
+        display: block;
+    }
+    .mCon06Txt p{}
+    .lastP{
+        font-weight: 900;
+    }
+    
+    .mCon06Top{
+        position: relative;
+    }
+    .mCon06Top>img{
+        padding-top: 13%;
+        width: 95%;
+    }
+    
+    .mCon06TopWrap{
+        position: absolute;
+        top: 88%;
+        right: 50%;
+        margin-right: -70px;
+    }
+    
+    .mBasktet{}
+    .mBasktet img{
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    .mBasktet p{
+        font-family: 'paybooc';
+        line-height: 25px;
+    }
+    .mBasktet p span{
+        font-weight: 900;
+        display: block;
+    }
+    .mCon06Bar{
+        padding: 10% 0;
+    }
+    
+    .mCard{}
+    .mCard img{
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    .mCard p{font-family: 'paybooc';}
+    
+    .mCon06Bottom{
+        padding-top: 410px;
+    }
+    .mCon06Bottom img{
+        width: 95%;
+    }
+    
+    
+    
+    /*메인컨텐츠07*/
+    .mainCon07{
+        text-align: center;
+        padding-top: 40%;
+    }
+    .mainCon07 h2{
+        padding-bottom: 15%;
+        font-size: 28px;
+    }
+    .con07Slide{}
+    
+    .con07Slide h4{
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    
+    .con07Slide p{
+        padding-top: 5%;
+        font-size: 14px;
+    }
+   
+    .slide01, .slide02, .slide03{
+        overflow: hidden;
+    }
+    .slide01 img, .slide02 img, .slide03 img{width: 80%;}
+    .gif01, .gif02, .gif03{
+        top: 4.3%;
+        left: 0;
+        margin-left: 0;
+        width: calc(100% + 1px);
+    }
+    .gif01 img, .gif02 img, .gif03 img{width: 68%;}
+    
+    
+    
+    
+    /*앱 다운로드*/
+    .appDownload{
+        text-align: center;
+        padding-top: 25%;
+        padding-bottom: 25%;
+        margin-top: 45%;
+        background: #CBE0FF;
+    }
+    .appDownload h2{
+        padding-bottom: 10px;
+        font-size: 28px;
+    }
+    .appDownload p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .downWrap{
+        padding-top: 0;
+    }
+    .storeDown{
+        display: block;
+        padding: 0;
+    }
+    .storeDown p{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .appStore{
+        padding-top: 5%;
+    }
+    .qrDown{
+        display: block;
+        padding: 0;
+    }
+    .qrDown p{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    
+ 
+    #footer{
+        font-size: 12px;
+        padding: 10% 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .fWrap{}
+    #footer h3{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+    #footer h3 img{
+        width: 75px;
+        display: inline-block;
+    }
+    .fTxt{}
+    .fTxt p{}
+    .fTxt span{display: block;}
+    .copy{padding-top: 10px;}
+    
+}
+    
