@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+
+
+
+a{outline: none;}
+
+.slick-current{height: auto;}
+.sec03SlideWrap{position: relative;}
+.slideBtn img{width: 25px;}
+.slidePrev{
+    position: absolute;
+    top: 300px;
+    left: -200;
+    display: inline-block;
+    cursor: pointer;
+}
+.slideNext{
+    position: absolute;
+    top: 300px;
+    right: -200;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.slick-dots{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+}
+.slick-dots li.slick-active{background: #555;}
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 4px;
+}
+
+.slick-track{height: auto;}
+
+.slick-slide img.pencilIcon{
+    display: inline-block; 
+    vertical-align: middle;
+}
+.slick-slide img.pencilIcon02{
+    display: inline-block; 
+    vertical-align: middle; 
+    padding: 15px 0; 
+    margin-left: 7px
+}  
+.slick-slide img.plusBtn{
+    display: inline-block; 
+    vertical-align: middle; 
+    padding: 15px 0;
+}
+
+.slick-slide.sellingList23 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .sellingSlide24Img01 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .sellingSlide24Img02 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 41px;
+}
+.slick-slide.serviceList24 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .service25Img01 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .service25Img02 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 41px;
+}
+.slick-slide.deliveryList23 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .deliveryTxt24Img01 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+.slick-slide .deliveryTxt24Img01 span{
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 41px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+    
+    .slideBtn{
+        z-index: 2000;
+        display: block;
+        top: 35%;
+    }
+    .slideBtn img{width: 15px;}
+    .slidePrev{left: 5%;}
+    .slideNext{right: 5%;}
+    
+    .slick-dots{opacity: 0;}
+    
+    .slick-slide img.pencilIcon{width: 30px;}
+    .slick-slide img.pencilIcon02{width: 20px;} 
+    .slick-slide img.plusBtn{width: 30px; padding: 0;}
+    
+    .slick-slide.sellingList23 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .sellingSlide24Img01 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .sellingSlide24Img02 span{font-size: 14px; margin-left: 10px;}
+    
+    .slick-slide.serviceList24 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .service25Img01 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .service25Img02 span{font-size: 14px; margin-left: 10px;}
+    
+    .slick-slide.deliveryList23 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .deliveryTxt24Img01 span{font-size: 14px; margin-left: 10px;}
+    .slick-slide .deliveryTxt24Img02 span{font-size: 14px; margin-left: 10px;}
+    
+    .mCon02 .slick-slide{height: 100%;}
+    .mcon05{position: relative;}
+    .mcon05 .slick-dots{
+        top: 800px;
+        opacity: 1;
+        left: 50%;
+        margin-left: -75px;
+        bottom: 0;
+    }
+    
+    .mCon05 .slick-dots li{
+        width: 40px;
+        height: 3px;
+        border: 1px solid #555;
+        border-radius: 10px;
+        float: left;
+        text-indent: -9999px;
+        margin: 0 4px;
+}
+    
+    
+}
+
+    
+

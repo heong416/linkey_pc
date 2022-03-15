@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+a{outline: none;}
+
+.slideBtn{
+    z-index: 99999;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+.slideBtn img{width: 25px;}
+.slidePrev{
+    cursor: pointer;
+    left: 100px;
+}
+.slideNext{right: 100px;}
+.mainCon07{position: relative;}
+
+.mainCon07 .slick-dots li.slick-active{background: #000;}
+.mainCon07 .slick-dots{
+    cursor: pointer;
+    left: 50%;
+    margin-left: -90px;
+    position: absolute;
+    bottom: -80px;
+}
+.mainCon07 .slick-dots li{
+    width: 50px;
+    height: 3px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 4px;
+}
+.con07Slide li img{margin: 0 auto;}
+.mainCon07 .slick-slide img{display: inline-block;}
+
+
+
+@media screen and (max-width:768px){
+    
+    /*공통*/
+    .slideBtn img{width: 16px;}
+    .slidePrev{left: 5%;}
+    .slideNext{right: 5%;}
+    
+    
+    
+    /*모바일 컨텐츠02 슬라이드*/
+    .mMainCon02{position: relative;}
+    .mMainCon02 .slideBtn{
+        display: inline-block;
+        position: absolute;
+        top: 45%;
+    }
+    .mMainCon02 .slick-slide img{
+        display: inline-block;
+        padding-bottom: 20%;
+    }
+    .mMainCon02 .slideBtn img{width: 16px;}
+    .mMainCon02 .slick-dots li.slick-active{background: #000;}
+    .mMainCon02 .slick-dots{
+        cursor: pointer;
+        left: 50%;
+        margin-left: -100px;
+        position: absolute;
+        bottom: 5%;
+    }
+    .mMainCon02 .slick-dots li{
+        width: 40px;
+        height: 3px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        float: left;
+        text-indent: -9999px;
+        margin: 0 4px;
+    }
+    
+    
+    /*모바일 컨텐츠05 슬라이드*/
+    .mMainCon05{position: relative;}
+    .mMainCon05 .slideBtn{top: 40%;}
+    .mMainCon05 .slick-slide img{display: inline-block;}
+    .mMainCon05 .slick-dots li.slick-active{background: #000;}
+    .mMainCon05 .slick-dots{
+        cursor: pointer;
+        left: 50%;
+        margin-left: -90px;
+        position: absolute;
+        bottom: 0;
+    }
+    .mMainCon05 .slick-dots li{
+        width: 50px;
+        height: 3px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        float: left;
+        text-indent: -9999px;
+        margin: 0 4px;
+    }
+    
+    
+    /*모바일 컨텐츠07 슬라이드*/
+    .mainCon07 .slick-dots{ bottom: -5%;}
+    .con07Slide li img{margin: 0 auto;}
+    .con07Slide .slideBtn{
+        z-index: 99999;
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
